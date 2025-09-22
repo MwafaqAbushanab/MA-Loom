@@ -6,6 +6,7 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Ventures from './pages/Ventures';
 import Contact from './pages/Contact';
+import Lokio from './pages/Lokio';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
             <Route path="/ventures" element={<Ventures />} />
+            <Route path="/ventures/lokio" element={<Lokio />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </Layout>

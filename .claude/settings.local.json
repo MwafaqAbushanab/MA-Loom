@@ -5,7 +5,11 @@
       "Bash(npm run build:*)",
       "Bash(node:*)",
       "Bash(python3:*)",
-      "Bash(npx tsc:*)"
+      "Bash(npx tsc:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": [],

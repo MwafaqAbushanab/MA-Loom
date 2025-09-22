@@ -122,7 +122,15 @@ const Ventures: React.FC = () => {
 
                 {/* Action Buttons */}
                 <div className="flex space-x-3">
-                  {venture.url ? (
+                  {venture.id === 'lokio' ? (
+                    <Link
+                      to="/ventures/lokio"
+                      className="flex-1 inline-flex items-center justify-center px-4 py-2 bg-accent-blue text-white font-medium rounded-lg hover:bg-blue-700 transition-colors duration-200 group"
+                    >
+                      Learn More
+                      <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-200" />
+                    </Link>
+                  ) : venture.url ? (
                     <a
                       href={venture.url}
                       target="_blank"
@@ -140,7 +148,7 @@ const Ventures: React.FC = () => {
                   )}
                   <Link
                     to="/contact"
-                    className="px-4 py-2 border border-accent-blue text-accent-blue font-medium rounded-lg hover:bg-accent-blue hover:text-white transition-colors duration-200"
+                    className="px-4 py-2 border border-accent-blue text-accent-blue font-medium rounded-lg hover:bg-blue-700 hover:text-white transition-colors duration-200"
                   >
                     Collaborate
                   </Link>
