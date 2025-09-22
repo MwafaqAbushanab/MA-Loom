@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__ide__getDiagnostics",
+      "Bash(npm run build:*)",
+      "Bash(node:*)",
+      "Bash(python3:*)",
+      "Bash(npx tsc:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "additionalDirectories": [
+      "/Users/mwafaq/.claude/agents"
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "personal": {
+    "name": "Mwafaq N. Abu-Shanab",
+    "title": "Founder of MA Loom — The Flow Studio",
+    "tagline": "From chaos to cadence. Workflows that adapt.",
+    "email": "mwafaq@maloom.studio",
+    "linkedin": "https://linkedin.com/in/mwafaq-abushanab",
+    "bio": "MA Loom is a founder-led flow studio. We weave people, process, and platforms into an operating rhythm—blending Agile practice, automation, and pragmatic AI—to reduce cycle time, cut cost, and scale outcomes.\n\nWe turn scattered tools and meetings into one delivery rhythm—so your team ships value every week. From chaos to cadence, we design, automate, and deliver workflows that adapt.\n\nBeyond work, I'm a proud father of four (including triplets!) and fluent in multiple languages, which helps me connect with diverse teams and clients worldwide.",
+    "languages": [
+      {"name": "English", "level": "Fluent"},
+      {"name": "Arabic", "level": "Fluent"},
+      {"name": "French", "level": "Fluent"},
+      {"name": "Spanish", "level": "Intermediate"},
+      {"name": "Portuguese", "level": "Beginner"},
+      {"name": "Russian", "level": "Beginner"}
+    ]
+  },
+  "services": [
+    {
+      "id": "automation-ai",
+      "title": "Design. Automate. Deliver.",
+      "description": "We design change-ready workflows that ship faster, safer, and smarter.",
+      "icon": "Bot",
+      "features": [
+        "LoomMap workshops to diagnose delivery bottlenecks",
+        "Workflow automation with n8n, Python, and API integrations",
+        "Pragmatic AI deployments for business operations",
+        "Change-ready process design and optimization"
+      ],
+      "color": "accent-blue"
+    },
+    {
+      "id": "agile-consulting",
+      "title": "Flow & Rhythm Consulting",
+      "description": "We weave teams into a sustainable delivery cadence with proven methodologies.",
+      "icon": "Users",
+      "features": [
+        "Operating rhythm design and cadence optimization",
+        "SAFe / Scrum coaching with flow metrics",
+        "Leadership workshops for sustainable delivery",
+        "Team dynamics and collaboration patterns"
+      ],
+      "color": "spurs-navy"
+    },
+    {
+      "id": "product-strategy",
+      "title": "Product Strategy & Ventures",
+      "description": "From concept to launch - strategic guidance for your next big idea.",
+      "icon": "Lightbulb",
+      "features": [
+        "Platform & startup advisory",
+        "MVP development & product roadmaps",
+        "Incubation of new concepts",
+        "Market validation and go-to-market strategy"
+      ],
+      "color": "french-red"
+    }
+  ],
+  "ventures": [
+    {
+      "id": "al-noman-foundation",
+      "name": "Al-Noman Foundation",
+      "description": "Non-profit organization dedicated to humanitarian aid and community development across multiple regions.",
+      "status": "Active",
+      "year": "2020",
+      "category": "Non-Profit",
+      "image": "https://www.alnoman.org/logo.png",
+      "url": "https://www.alnoman.org/"
+    },
+    {
+      "id": "nom-nom-cookies",
+      "name": "Nom Nom Cookies",
+      "description": "Cookie & milk pairing franchise concept bringing gourmet cookie experiences to communities.",
+      "status": "Active",
+      "year": "2024",
+      "category": "Food & Beverage",
+      "image": "/ventures/nom-nom-cookies.png"
+    },
+    {
+      "id": "lokio",
+      "name": "Lokio",
+      "description": "Smart locksmith application connecting customers with verified locksmith professionals.",
+      "status": "Development",
+      "year": "2023",
+      "category": "Service Platform",
+      "image": "/ventures/lokio.png"
+    },
+    {
+      "id": "rise-magile",
+      "name": "Rise MAgile",
+      "description": "Story-pointing tool for Agile teams to improve estimation accuracy and velocity.",
+      "status": "Active",
+      "year": "2022",
+      "category": "SaaS",
+      "image": "/ventures/rise-magile.png"
+    },
+    {
+      "id": "7uryeah-studio",
+      "name": "7URyeah Studio",
+      "description": "Freedom concept store & collectibles platform for unique lifestyle products.",
+      "status": "Active",
+      "year": "2021",
+      "category": "E-commerce",
+      "image": "/ventures/7uryeah-studio.png"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "tech-startup",
+      "name": "Sarah Chen",
+      "title": "CTO, TechFlow Solutions",
+      "company": "TechFlow Solutions",
+      "content": "MA Loom transformed our chaotic development process into a well-oiled machine. We went from 6-week sprints to 2-week deliveries with 40% fewer bugs. The automation workflows they built saved us 15 hours per week.",
+      "results": "40% reduction in bugs, 3x faster delivery",
+      "image": "/testimonials/sarah-chen.jpg"
+    },
+    {
+      "id": "manufacturing",
+      "name": "Michael Rodriguez",
+      "title": "Operations Director, Global Manufacturing Inc",
+      "company": "Global Manufacturing Inc",
+      "content": "The workflow optimization and agile transformation delivered immediate results. Our time-to-market improved by 50%, and team satisfaction scores increased dramatically. Mwafaq's approach is both practical and transformative.",
+      "results": "50% faster time-to-market, 85% team satisfaction",
+      "image": "/testimonials/michael-rodriguez.jpg"
+    },
+    {
+      "id": "healthcare",
+      "name": "Dr. Priya Patel",
+      "title": "Chief Innovation Officer, HealthTech Solutions",
+      "company": "HealthTech Solutions",
+      "content": "Working with MA Loom was a game-changer for our product development. The LoomMap workshops identified bottlenecks we didn't even know existed. Now we ship features that actually solve real problems.",
+      "results": "3x improvement in feature adoption, 60% faster releases",
+      "image": "/testimonials/priya-patel.jpg"
+    }
+  ],
+  "caseStudies": [
+    {
+      "id": "saas-automation",
+      "title": "SaaS Platform Automation",
+      "client": "CloudTech Solutions",
+      "industry": "Software",
+      "challenge": "Manual deployment processes taking 3 days, high error rates, team burnout",
+      "solution": "Implemented CI/CD pipelines, automated testing, and monitoring workflows",
+      "results": [
+        "Deployment time: 3 days → 30 minutes",
+        "Error rate: 15% → 2%",
+        "Team overtime: 60% reduction"
+      ],
+      "timeline": "6 weeks",
+      "technologies": ["n8n", "Docker", "Python", "AWS"],
+      "image": "/case-studies/saas-automation.jpg"
+    },
+    {
+      "id": "agile-transformation",
+      "title": "Enterprise Agile Transformation",
+      "client": "Fortune 500 Manufacturing",
+      "industry": "Manufacturing",
+      "challenge": "Siloed departments, 9-month product cycles, poor communication",
+      "solution": "SAFe implementation, cross-functional teams, flow metrics dashboard",
+      "results": [
+        "Product cycle: 9 months → 3 months",
+        "Customer satisfaction: 45% → 82%",
+        "Employee engagement: 67% → 91%"
+      ],
+      "timeline": "4 months",
+      "technologies": ["Jira", "Confluence", "Power BI"],
+      "image": "/case-studies/agile-transformation.jpg"
+    }
+  ],
+  "social": {
+    "linkedin": "https://linkedin.com/in/mwafaq-abushanab",
+    "tiktok": "https://tiktok.com/@abu.triplets",
+    "instagram": "https://instagram.com/abu.triplets",
+    "facebook": "https://facebook.com/abu.triplets"
+  }
+}
