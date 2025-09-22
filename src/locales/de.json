@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "ventures": "Projekte",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "title": "Vom Chaos zur Ordnung. Workflows, die sich anpassen.",
+    "subtitle": "MA Loom ist ein gründergeführtes Flow-Studio. Wir verweben Menschen, Prozesse und Plattformen zu einem Arbeitsrhythmus - eine Mischung aus agiler Praxis, Automatisierung und pragmatischer KI - um Zykluszeiten zu reduzieren, Kosten zu senken und Ergebnisse zu skalieren.",
+    "cta": "Services erkunden",
+    "learnMore": "Mehr erfahren"
+  },
+  "about": {
+    "title": "Über Mwafaq",
+    "bio": "MA Loom ist ein gründergeführtes Flow-Studio. Wir verweben Menschen, Prozesse und Plattformen zu einem Arbeitsrhythmus - eine Mischung aus agiler Praxis, Automatisierung und pragmatischer KI - um Zykluszeiten zu reduzieren, Kosten zu senken und Ergebnisse zu skalieren."
+  },
+  "services": {
+    "title": "Dienstleistungen",
+    "automation": {
+      "title": "Entwerfen. Automatisieren. Liefern.",
+      "description": "Wir entwerfen veränderungsbereite Workflows, die schneller, sicherer und intelligenter ausgeliefert werden."
+    },
+    "agile": {
+      "title": "Flow & Rhythmus Beratung",
+      "description": "Wir weben Teams in einen nachhaltigen Lieferrhythmus mit bewährten Methoden."
+    },
+    "product": {
+      "title": "Produktstrategie & Ventures",
+      "description": "Vom Konzept bis zur Markteinführung - strategische Beratung für Ihre nächste große Idee."
+    }
+  },
+  "ventures": {
+    "title": "Meine Projekte",
+    "subtitle": "Vom Konzept zur Realität - innovative Ideen erkunden und Lösungen entwickeln, die einen Unterschied machen.",
+    "learnMore": "Mehr erfahren",
+    "collaborate": "Zusammenarbeiten"
+  },
+  "lokio": {
+    "title": "Lokio",
+    "subtitle": "Intelligenter Zugang. Geliefert.",
+    "description": "Eine revolutionäre Schlüsseldienst-Plattform, die Kunden mit verifizierten Fachleuten für schnelle, zuverlässige und transparente Schlüsseldienste verbindet."
+  },
+  "freshFlow": {
+    "title": "Fresh Flow",
+    "subtitle": "Eco-Tech Saft • Frisch, saisonal, lokal bezogen — angetrieben von intelligenten Ops.",
+    "description": "Eine Eco-Tech-Saftkiosk-Marke, die kaltgepresste Säfte, Smoothies und gesunde Snacks serviert, die nur aus saisonalen, lokalen Produkten hergestellt werden."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Lassen Sie uns über Ihr Projekt sprechen",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "send": "Nachricht senden"
+  },
+  "common": {
+    "backTo": "Zurück zu",
+    "viewDemo": "Demo ansehen",
+    "partnerWith": "Partner werden",
+    "joinWaitlist": "Warteliste beitreten",
+    "getStarted": "Loslegen",
+    "darkMode": "Dunkler Modus",
+    "lightMode": "Heller Modus"
+  }
+}

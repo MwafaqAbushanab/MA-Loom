@@ -1,19 +1,22 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Moon, Sun } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import { useTheme } from '../contexts/ThemeContext';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { darkMode, toggleDarkMode } = useTheme();
+  const { t } = useTranslation();
   const location = useLocation();
 
   const navigation = [
-    { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
-    { name: 'Services', href: '/services' },
-    { name: 'Ventures', href: '/ventures' },
-    { name: 'Contact', href: '/contact' },
+    { name: t('nav.home'), href: '/' },
+    { name: t('nav.about'), href: '/about' },
+    { name: t('nav.services'), href: '/services' },
+    { name: t('nav.ventures'), href: '/ventures' },
+    { name: t('nav.contact'), href: '/contact' },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -49,6 +52,8 @@ const Navbar: React.FC = () => {
               </Link>
             ))}
             
+            <LanguageSwitcher />
+            
             <button
               onClick={toggleDarkMode}
               className="p-2 rounded-md text-gray-700 dark:text-gray-300 hover:text-accent-blue hover:bg-primary-50 dark:hover:bg-primary-800 transition-colors duration-200"
@@ -67,6 +72,8 @@ const Navbar: React.FC = () => {
 
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center space-x-2">
+            <LanguageSwitcher />
+            
             <button
               onClick={toggleDarkMode}
               className="p-2 rounded-md text-gray-700 dark:text-gray-300 hover:text-accent-blue"

@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services", 
+    "ventures": "Ventures",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "From chaos to cadence. Workflows that adapt.",
+    "subtitle": "MA Loom is a founder-led flow studio. We weave people, process, and platforms into an operating rhythm—blending Agile practice, automation, and pragmatic AI—to reduce cycle time, cut cost, and scale outcomes.",
+    "cta": "Explore Services",
+    "learnMore": "Learn More"
+  },
+  "about": {
+    "title": "About Mwafaq",
+    "bio": "MA Loom is a founder-led flow studio. We weave people, process, and platforms into an operating rhythm—blending Agile practice, automation, and pragmatic AI—to reduce cycle time, cut cost, and scale outcomes."
+  },
+  "services": {
+    "title": "Services",
+    "automation": {
+      "title": "Design. Automate. Deliver.",
+      "description": "We design change-ready workflows that ship faster, safer, and smarter."
+    },
+    "agile": {
+      "title": "Flow & Rhythm Consulting",
+      "description": "We weave teams into a sustainable delivery cadence with proven methodologies."
+    },
+    "product": {
+      "title": "Product Strategy & Ventures",
+      "description": "From concept to launch - strategic guidance for your next big idea."
+    }
+  },
+  "ventures": {
+    "title": "My Ventures",
+    "subtitle": "From concept to reality—exploring innovative ideas and building solutions that make a difference.",
+    "learnMore": "Learn More",
+    "collaborate": "Collaborate"
+  },
+  "lokio": {
+    "title": "Lokio",
+    "subtitle": "Smart Access. Delivered.",
+    "description": "A revolutionary locksmith platform that connects customers with verified professionals for quick, reliable, and transparent locksmith services."
+  },
+  "freshFlow": {
+    "title": "Fresh Flow",
+    "subtitle": "Eco-Tech Juice • Fresh, seasonal, locally sourced — powered by smart ops.",
+    "description": "An eco-tech juice kiosk brand serving cold-pressed juices, smoothies, and healthy snacks made only with seasonal, local produce."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's discuss your project",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message"
+  },
+  "common": {
+    "backTo": "Back to",
+    "viewDemo": "View Demo",
+    "partnerWith": "Partner With Us",
+    "joinWaitlist": "Join Waitlist",
+    "getStarted": "Get Started",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode"
+  }
+}

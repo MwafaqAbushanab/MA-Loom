@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "services": "Servicios",
+    "ventures": "Proyectos",
+    "contact": "Contacto"
+  },
+  "home": {
+    "title": "Del caos a la cadencia. Flujos de trabajo que se adaptan.",
+    "subtitle": "MA Loom es un estudio de flujo dirigido por el fundador. Tejemos personas, procesos y plataformas en un ritmo operativo: combinando práctica Ágil, automatización e IA pragmática, para reducir el tiempo de ciclo, reducir costos y escalar resultados.",
+    "cta": "Explorar servicios",
+    "learnMore": "Aprende más"
+  },
+  "about": {
+    "title": "Acerca de Mwafaq",
+    "bio": "MA Loom es un estudio de flujo dirigido por el fundador. Tejemos personas, procesos y plataformas en un ritmo operativo: combinando práctica Ágil, automatización e IA pragmática, para reducir el tiempo de ciclo, reducir costos y escalar resultados."
+  },
+  "services": {
+    "title": "Servicios",
+    "automation": {
+      "title": "Diseñar. Automatizar. Entregar.",
+      "description": "Diseñamos flujos de trabajo listos para el cambio que envían más rápido, más seguro y más inteligente."
+    },
+    "agile": {
+      "title": "Consultoría de Flujo y Ritmo",
+      "description": "Tejemos equipos en una cadencia de entrega sostenible con metodologías probadas."
+    },
+    "product": {
+      "title": "Estrategia de Producto y Ventures",
+      "description": "Del concepto al lanzamiento: orientación estratégica para tu próxima gran idea."
+    }
+  },
+  "ventures": {
+    "title": "Mis Proyectos",
+    "subtitle": "Del concepto a la realidad: explorando ideas innovadoras y construyendo soluciones que marcan la diferencia.",
+    "learnMore": "Aprende más",
+    "collaborate": "Colaborar"
+  },
+  "lokio": {
+    "title": "Lokio",
+    "subtitle": "Acceso inteligente. Entregado.",
+    "description": "Una plataforma revolucionaria de cerrajeros que conecta clientes con profesionales verificados para servicios de cerrajería rápidos, confiables y transparentes."
+  },
+  "freshFlow": {
+    "title": "Fresh Flow",
+    "subtitle": "Jugo Eco-Tech • Fresco, estacional, de origen local — impulsado por operaciones inteligentes.",
+    "description": "Una marca de quiosco de jugos eco-tech que sirve jugos prensados en frío, batidos y snacks saludables hechos solo con productos estacionales locales."
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Hablemos de tu proyecto",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "send": "Enviar mensaje"
+  },
+  "common": {
+    "backTo": "Volver a",
+    "viewDemo": "Ver demo",
+    "partnerWith": "Asociarse con nosotros",
+    "joinWaitlist": "Unirse a lista de espera",
+    "getStarted": "Comenzar",
+    "darkMode": "Modo oscuro",
+    "lightMode": "Modo claro"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "ventures": "Projets",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Du chaos à la cadence. Des workflows qui s'adaptent.",
+    "subtitle": "MA Loom est un studio de flux dirigé par un fondateur. Nous tissons les personnes, les processus et les plateformes dans un rythme opérationnel - mélangeant la pratique Agile, l'automatisation et l'IA pragmatique - pour réduire le temps de cycle, réduire les coûts et faire évoluer les résultats.",
+    "cta": "Explorer les services",
+    "learnMore": "En savoir plus"
+  },
+  "about": {
+    "title": "À propos de Mwafaq",
+    "bio": "MA Loom est un studio de flux dirigé par un fondateur. Nous tissons les personnes, les processus et les plateformes dans un rythme opérationnel - mélangeant la pratique Agile, l'automatisation et l'IA pragmatique - pour réduire le temps de cycle, réduire les coûts et faire évoluer les résultats."
+  },
+  "services": {
+    "title": "Services",
+    "automation": {
+      "title": "Concevoir. Automatiser. Livrer.",
+      "description": "Nous concevons des workflows prêts au changement qui livrent plus rapidement, plus sûrement et plus intelligemment."
+    },
+    "agile": {
+      "title": "Conseil en Flux & Rythme",
+      "description": "Nous tissons les équipes dans une cadence de livraison durable avec des méthodologies éprouvées."
+    },
+    "product": {
+      "title": "Stratégie Produit & Ventures",
+      "description": "Du concept au lancement - conseils stratégiques pour votre prochaine grande idée."
+    }
+  },
+  "ventures": {
+    "title": "Mes Projets",
+    "subtitle": "Du concept à la réalité - explorer des idées innovantes et créer des solutions qui font la différence.",
+    "learnMore": "En savoir plus",
+    "collaborate": "Collaborer"
+  },
+  "lokio": {
+    "title": "Lokio",
+    "subtitle": "Accès intelligent. Livré.",
+    "description": "Une plateforme révolutionnaire de serruriers qui connecte les clients avec des professionnels vérifiés pour des services de serrurerie rapides, fiables et transparents."
+  },
+  "freshFlow": {
+    "title": "Fresh Flow",
+    "subtitle": "Jus Éco-Tech • Frais, saisonnier, d'origine locale — alimenté par des ops intelligentes.",
+    "description": "Une marque de kiosque à jus éco-tech servant des jus pressés à froid, des smoothies et des collations saines fabriqués uniquement avec des produits saisonniers et locaux."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Discutons de votre projet",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "send": "Envoyer le message"
+  },
+  "common": {
+    "backTo": "Retour à",
+    "viewDemo": "Voir la démo",
+    "partnerWith": "Partenaire avec nous",
+    "joinWaitlist": "Rejoindre la liste d'attente",
+    "getStarted": "Commencer",
+    "darkMode": "Mode sombre",
+    "lightMode": "Mode clair"
+  }
+}

@@ -7,6 +7,7 @@ import Services from './pages/Services';
 import Ventures from './pages/Ventures';
 import Contact from './pages/Contact';
 import Lokio from './pages/Lokio';
+import FreshFlow from './pages/FreshFlow';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/ventures" element={<Ventures />} />
             <Route path="/ventures/lokio" element={<Lokio />} />
+            <Route path="/ventures/fresh-flow" element={<FreshFlow />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </Layout>

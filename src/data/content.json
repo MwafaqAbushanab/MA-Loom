@@ -102,6 +102,15 @@
       "year": "2021",
       "category": "E-commerce",
       "image": "/ventures/7uryeah-studio.png"
+    },
+    {
+      "id": "fresh-flow",
+      "name": "Fresh Flow",
+      "description": "Eco-tech juice kiosk brand serving cold-pressed juices and smoothies made with seasonal, local produce.",
+      "status": "Planning",
+      "year": "2024",
+      "category": "Food & Beverage",
+      "image": "/ventures/fresh-flow.png"
     }
   ],
   "testimonials": [
