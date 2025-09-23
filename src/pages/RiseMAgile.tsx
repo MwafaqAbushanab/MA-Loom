@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Users, Clock, Target, BarChart3, Zap, Play, RotateCcw, CheckCircle, TrendingUp, Star, ExternalLink, ArrowRight } from 'lucide-react';
+import { ArrowLeft, Users, Clock, Target, BarChart3, Zap, Play, RotateCcw, CheckCircle, TrendingUp, Star, ExternalLink, ArrowRight, HelpCircle, Info } from 'lucide-react';
 
 interface StoryPoint {
   id: string;
@@ -23,8 +23,23 @@ const RiseMAgile: React.FC = () => {
   const [sessionPhase, setSessionPhase] = useState<'voting' | 'reveal' | 'discuss' | 'completed'>('voting');
   const [teamVotes, setTeamVotes] = useState<{ [userId: string]: number }>({});
   const [sessionStats, setSessionStats] = useState({ storiesCompleted: 0, totalTime: 0, avgAccuracy: 0 });
+  const [showSizingGuide, setShowSizingGuide] = useState(false);
 
   const fibonacciSequence = [1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
+  
+  // Animal metaphors for story points to help with relative sizing
+  const animalMetaphors = {
+    1: { animal: '🐜', name: 'Ant', description: 'Tiny task - fix typo, update text' },
+    2: { animal: '🐿️', name: 'Squirrel', description: 'Small task - add button, simple validation' },
+    3: { animal: '🐰', name: 'Rabbit', description: 'Quick task - basic form, simple component' },
+    5: { animal: '🐱', name: 'Cat', description: 'Medium task - user authentication, API integration' },
+    8: { animal: '🐺', name: 'Wolf', description: 'Complex task - dashboard page, search feature' },
+    13: { animal: '🦌', name: 'Deer', description: 'Large task - payment system, reporting module' },
+    21: { animal: '🐎', name: 'Horse', description: 'Very large - complete user management system' },
+    34: { animal: '🦏', name: 'Rhino', description: 'Huge task - entire feature overhaul' },
+    55: { animal: '🐘', name: 'Elephant', description: 'Epic task - major system redesign' },
+    89: { animal: '🐋', name: 'Whale', description: 'Massive - needs to be broken down first!' }
+  };
   
   const mockTeam: User[] = [
     { id: '1', name: 'Alex (You)', role: 'Product Owner', avatar: '👨‍💼' },
@@ -224,6 +239,47 @@ const RiseMAgile: React.FC = () => {
         </div>
       </section>
 
+      {/* Animal Sizing Introduction */}
+      <section className="py-16 bg-primary-50 dark:bg-primary-900">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-primary-800 dark:text-white mb-4">
+              Story Points Made Simple
+            </h2>
+            <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-8">
+              Learn estimation with our animal-based sizing system. No more confusion about relative complexity!
+            </p>
+          </div>
+          
+          <div className="bg-white dark:bg-primary-800 rounded-2xl p-8 mb-8">
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-6">
+              {[1, 2, 3, 5, 8].map((points) => (
+                <div key={points} className="text-center p-4 bg-primary-50 dark:bg-primary-700 rounded-xl">
+                  <div className="text-4xl mb-2">
+                    {animalMetaphors[points as keyof typeof animalMetaphors].animal}
+                  </div>
+                  <div className="font-bold text-lg text-primary-800 dark:text-white">
+                    {points}
+                  </div>
+                  <div className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                    {animalMetaphors[points as keyof typeof animalMetaphors].name}
+                  </div>
+                  <div className="text-xs text-gray-600 dark:text-gray-400 mt-1">
+                    {animalMetaphors[points as keyof typeof animalMetaphors].description.split(' - ')[0]}
+                  </div>
+                </div>
+              ))}
+            </div>
+            
+            <div className="text-center">
+              <div className="inline-flex items-center px-4 py-2 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-lg text-sm">
+                💡 <strong>Remember:</strong> Story points are about relative size, not time! An 🐺 Wolf (8 points) is twice as complex as a 🐱 Cat (5 points).
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Key Benefits */}
       <section className="py-20 bg-white dark:bg-primary-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -370,28 +426,90 @@ const RiseMAgile: React.FC = () => {
               {/* Voting Interface */}
               {sessionPhase === 'voting' && (
                 <div>
-                  <h4 className="text-lg font-semibold text-primary-800 dark:text-white mb-4">
-                    Select Your Estimate (Story Points)
-                  </h4>
+                  <div className="flex items-center justify-between mb-4">
+                    <h4 className="text-lg font-semibold text-primary-800 dark:text-white">
+                      Select Your Estimate (Story Points)
+                    </h4>
+                    <button
+                      onClick={() => setShowSizingGuide(!showSizingGuide)}
+                      className="inline-flex items-center text-sm text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+                    >
+                      <HelpCircle className="h-4 w-4 mr-1" />
+                      Sizing Guide
+                    </button>
+                  </div>
+
+                  {/* Sizing Guide */}
+                  {showSizingGuide && (
+                    <div className="mb-6 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-700 rounded-xl p-4">
+                      <div className="flex items-center mb-3">
+                        <Info className="h-5 w-5 text-blue-600 dark:text-blue-400 mr-2" />
+                        <h5 className="font-semibold text-blue-800 dark:text-blue-200">
+                          Animal-Based Story Point Sizing Guide
+                        </h5>
+                      </div>
+                      <p className="text-sm text-blue-700 dark:text-blue-300 mb-4">
+                        Story points are <strong>relative estimates</strong> of effort/complexity. Compare tasks to each other, not absolute time!
+                      </p>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                        {fibonacciSequence.slice(0, 6).map((points) => (
+                          <div key={points} className="flex items-center bg-white dark:bg-blue-800 rounded-lg p-2">
+                            <span className="text-2xl mr-2">{animalMetaphors[points as keyof typeof animalMetaphors].animal}</span>
+                            <div>
+                              <div className="font-semibold text-sm text-blue-800 dark:text-blue-200">
+                                {points} - {animalMetaphors[points as keyof typeof animalMetaphors].name}
+                              </div>
+                              <div className="text-xs text-blue-600 dark:text-blue-300">
+                                {animalMetaphors[points as keyof typeof animalMetaphors].description}
+                              </div>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                      <div className="mt-3 text-xs text-blue-600 dark:text-blue-400">
+                        💡 <strong>Fibonacci Tip:</strong> The gaps get bigger (1,2,3,5,8,13...) because uncertainty increases with complexity!
+                      </div>
+                    </div>
+                  )}
+
                   <div className="grid grid-cols-5 md:grid-cols-10 gap-3 mb-6">
                     {fibonacciSequence.map((points) => (
-                      <button
-                        key={points}
-                        onClick={() => handleVote(points)}
-                        className={`aspect-square rounded-lg font-bold text-lg transition-all duration-200 ${
-                          selectedPoints === points
-                            ? 'bg-spurs-navy text-white transform scale-105 shadow-lg'
-                            : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-                        }`}
-                      >
-                        {points}
-                      </button>
+                      <div key={points} className="relative group">
+                        <button
+                          onClick={() => handleVote(points)}
+                          className={`w-full aspect-square rounded-lg font-bold text-lg transition-all duration-200 relative ${
+                            selectedPoints === points
+                              ? 'bg-spurs-navy text-white transform scale-105 shadow-lg'
+                              : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                          }`}
+                        >
+                          <div className="flex flex-col items-center justify-center h-full">
+                            <div className="text-xl mb-1">
+                              {animalMetaphors[points as keyof typeof animalMetaphors].animal}
+                            </div>
+                            <div className="text-sm font-bold">{points}</div>
+                          </div>
+                        </button>
+                        
+                        {/* Tooltip */}
+                        <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-gray-800 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none z-10 whitespace-nowrap">
+                          <div className="font-semibold">{animalMetaphors[points as keyof typeof animalMetaphors].name}</div>
+                          <div className="text-gray-300">{animalMetaphors[points as keyof typeof animalMetaphors].description}</div>
+                          <div className="absolute top-full left-1/2 transform -translate-x-1/2 border-4 border-transparent border-t-gray-800"></div>
+                        </div>
+                      </div>
                     ))}
                   </div>
+                  
                   {selectedPoints && (
-                    <p className="text-center text-green-600 dark:text-green-400 font-medium">
-                      You voted {selectedPoints} points. Waiting for team...
-                    </p>
+                    <div className="text-center">
+                      <p className="text-green-600 dark:text-green-400 font-medium mb-2">
+                        You voted {selectedPoints} points ({animalMetaphors[selectedPoints as keyof typeof animalMetaphors].animal} {animalMetaphors[selectedPoints as keyof typeof animalMetaphors].name})
+                      </p>
+                      <p className="text-sm text-gray-600 dark:text-gray-400">
+                        Waiting for team to finish voting...
+                      </p>
+                    </div>
                   )}
                 </div>
               )}
@@ -405,8 +523,14 @@ const RiseMAgile: React.FC = () => {
                   <div className="bg-gray-50 dark:bg-gray-800 rounded-xl p-6 mb-6">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                       <div className="text-center">
+                        <div className="text-3xl mb-2">
+                          {animalMetaphors[calculateConsensus() as keyof typeof animalMetaphors].animal}
+                        </div>
                         <p className="text-2xl font-bold text-spurs-navy dark:text-blue-400">{calculateConsensus()}</p>
                         <p className="text-sm text-gray-600 dark:text-gray-400">Consensus Estimate</p>
+                        <p className="text-xs text-gray-500 dark:text-gray-500">
+                          {animalMetaphors[calculateConsensus() as keyof typeof animalMetaphors].name}
+                        </p>
                       </div>
                       <div className="text-center">
                         <p className="text-2xl font-bold text-gray-700 dark:text-gray-300">{getVoteSpread()}</p>
