@@ -138,6 +138,14 @@ const Ventures: React.FC = () => {
                       Learn More
                       <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-200" />
                     </Link>
+                  ) : venture.id === 'rise-magile' ? (
+                    <Link
+                      to="/ventures/rise-magile"
+                      className="flex-1 inline-flex items-center justify-center px-4 py-2 bg-accent-blue text-white font-medium rounded-lg hover:bg-blue-700 transition-colors duration-200 group"
+                    >
+                      Try Live Demo
+                      <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-200" />
+                    </Link>
                   ) : venture.url ? (
                     <a
                       href={venture.url}
