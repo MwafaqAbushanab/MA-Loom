@@ -2,10 +2,10 @@
   "personal": {
     "name": "Mwafaq N. Abu-Shanab",
     "title": "AI-Powered Business Consultant & Million-Dollar Company Builder",
-    "tagline": "Building the next generation of million-dollar AI companies. The future belongs to intelligent startups.",
+    "tagline": "Building ultra-lean AI companies: 3-5 people, million-dollar outcomes. AI agents handle everything else.",
     "email": "mwafaq@maloom.studio",
     "linkedin": "https://linkedin.com/in/mwafaq-abushanab",
-    "bio": "I help ambitious entrepreneurs build million-dollar AI companies in the era where intelligence beats scale. The future isn't about billion-dollar giants—it's about thousands of agile, AI-powered companies worth $1M+ each.\n\nWith MA Loom, I guide founders through AI integration, intelligent automation, and scalable workflows that turn ideas into profitable ventures. From concept to $1M+ valuation, I provide the coaching, training, and strategic guidance that transforms startups into AI-native success stories.\n\nBeyond building companies, I'm a proud father of four (including triplets!) and fluent in multiple languages, helping me connect with diverse entrepreneurs worldwide.",
+    "bio": "I help ambitious entrepreneurs build ultra-lean million-dollar AI companies. The future isn't massive teams or billion-dollar giants—it's intelligent 3-5 person companies with AI agents handling Sales, HR, Marketing, and Operations.\n\nMy team and I guide you from concept to $1M+ valuation by replacing traditional departments with AI agents and smart automation. Whether you need help with sales processes, HR workflows, customer service, or any other department—we'll get you there with AI-first solutions.\n\nBeyond building companies, I'm a proud father of four (including triplets!) and fluent in multiple languages, helping me connect with diverse entrepreneurs worldwide.",
     "languages": [
       {"name": "English", "level": "Fluent"},
       {"name": "Arabic", "level": "Fluent"},
@@ -18,19 +18,19 @@
   "services": [
     {
       "id": "ai-startup-coaching",
-      "title": "Million-Dollar AI Company Builder",
-      "description": "Transform your startup into an AI-powered million-dollar company with expert guidance and proven frameworks.",
+      "title": "Ultra-Lean AI Company Builder",
+      "description": "Build your million-dollar company with just 3-5 people and AI agents. My team and I replace traditional departments with intelligent automation.",
       "icon": "Bot",
       "features": [
-        "AI-First Business Model Design & Validation",
-        "Intelligent Automation Strategy & Implementation", 
-        "AI Product Development & Go-to-Market Strategy",
-        "Scalable AI Operations & Team Building",
-        "Funding Strategy for AI Companies ($1M+ valuations)",
-        "AI Ethics & Compliance Framework Setup"
+        "Ultra-Lean Team Architecture: 3-5 People + AI Agents",
+        "AI Sales Agents: Automated Lead Gen, Nurturing & Closing", 
+        "AI HR Systems: Recruiting, Onboarding & Performance Management",
+        "AI Marketing: Content Creation, Social Media & Ad Optimization",
+        "AI Operations: Finance, Legal, Customer Service & Support",
+        "Million-Dollar Funding Strategy & Investor Positioning"
       ],
       "color": "accent-blue",
-      "cta": "Start Building Your AI Company",
+      "cta": "Build Your Ultra-Lean AI Company",
       "pricing": "Starting at $15,000/month - 3 month minimum"
     },
     {

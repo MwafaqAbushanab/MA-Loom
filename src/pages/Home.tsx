@@ -18,10 +18,10 @@ const Home: React.FC = () => {
                 {content.personal.tagline}
               </p>
               <p className="text-lg text-gray-600 dark:text-gray-400 mb-4">
-                The future isn't billion-dollar giants—it's thousands of intelligent, AI-powered companies worth $1M+ each.
+                The future isn't massive teams or billion-dollar giants—it's ultra-lean companies with 3-5 people and AI agents handling everything else.
               </p>
               <p className="text-md text-gray-600 dark:text-gray-400 mb-8">
-                I help ambitious entrepreneurs build million-dollar AI companies through strategic coaching, LinkedIn mastery, and intelligent automation.
+                My team and I help you build million-dollar companies by replacing traditional departments with AI agents. Sales, HR, Marketing, Operations—we'll get you there.
               </p>
               
               <div className="space-y-4">
@@ -31,7 +31,7 @@ const Home: React.FC = () => {
                     className="inline-flex items-center px-8 py-4 bg-accent-blue text-white font-bold rounded-lg hover:bg-blue-700 transition-all duration-200 group whitespace-nowrap shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                   >
                     <Calendar className="mr-2 h-5 w-5" />
-                    Build Your Million-Dollar AI Company
+                    Build Your Ultra-Lean AI Company
                     <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-200" />
                   </Link>
                   
@@ -51,7 +51,7 @@ const Home: React.FC = () => {
                   </div>
                   <div className="flex items-center">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-1" />
-                    Million-Dollar Focus
+                    3-5 Person Teams
                   </div>
                   <div className="flex items-center">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-1" />
@@ -98,8 +98,8 @@ const Home: React.FC = () => {
               <div className="text-blue-100">Target Company Valuation</div>
             </div>
             <div className="text-white">
-              <div className="text-3xl font-bold mb-2">5+</div>
-              <div className="text-blue-100">AI Companies Built</div>
+              <div className="text-3xl font-bold mb-2">3-5</div>
+              <div className="text-blue-100">Person Teams Maximum</div>
             </div>
             <div className="text-white">
               <div className="text-3xl font-bold mb-2">500%</div>
@@ -185,10 +185,10 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="font-display text-3xl md:text-4xl font-semibold text-primary-800 dark:text-white mb-4">
-              Build Your Million-Dollar AI Empire
+              Build Your Ultra-Lean AI Empire
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              Three proven paths to building intelligent, profitable companies that scale with AI at their core.
+              Three proven paths to building intelligent, profitable companies with 3-5 people and AI agents handling everything else.
             </p>
           </div>
           
@@ -284,32 +284,32 @@ const Home: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                🤖 Build Your Million-Dollar AI Company
+                🤖 Build Your Ultra-Lean AI Company
               </h2>
               <p className="text-xl text-purple-100 mb-8">
-                The future belongs to intelligent startups that leverage AI from day one. I'll guide you from concept to $1M+ valuation in 12-18 months.
+                Why hire entire departments when AI agents can do the work? My team and I help you build million-dollar companies with just 3-5 people.
               </p>
               
               <div className="space-y-4 mb-8">
                 <div className="flex items-start">
                   <CheckCircle className="h-6 w-6 text-green-400 mr-3 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="text-white font-semibold">AI-First Business Model Design</p>
-                    <p className="text-purple-200 text-sm">Build products that get smarter, not just bigger</p>
+                    <p className="text-white font-semibold">AI Sales Team: Lead Generation → Closing</p>
+                    <p className="text-purple-200 text-sm">Replace your entire sales department with intelligent automation</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <CheckCircle className="h-6 w-6 text-green-400 mr-3 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="text-white font-semibold">Intelligent Automation Strategy</p>
-                    <p className="text-purple-200 text-sm">Scale operations with AI agents and smart workflows</p>
+                    <p className="text-white font-semibold">AI HR & Operations: Recruiting → Support</p>
+                    <p className="text-purple-200 text-sm">Automated hiring, onboarding, customer service, and more</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <CheckCircle className="h-6 w-6 text-green-400 mr-3 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="text-white font-semibold">$1M+ Funding Strategy</p>
-                    <p className="text-purple-200 text-sm">Position for investment in the AI startup boom</p>
+                    <p className="text-white font-semibold">AI Marketing: Content → Conversion</p>
+                    <p className="text-purple-200 text-sm">AI-generated content, social media, and ad optimization</p>
                   </div>
                 </div>
               </div>
@@ -318,26 +318,42 @@ const Home: React.FC = () => {
                 to="/contact"
                 className="inline-flex items-center px-8 py-4 bg-white text-purple-700 font-bold rounded-lg hover:bg-gray-100 transition-colors duration-200 text-lg shadow-lg"
               >
-                🚀 Start Building - $15K/Month (3-month minimum)
+                🚀 My Team & I Will Get You There - $15K/Month
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </div>
             
             <div className="text-center lg:text-right">
               <div className="inline-block bg-white/10 rounded-2xl p-8">
-                <div className="text-6xl mb-4">🎯</div>
-                <div className="space-y-2">
-                  <div className="text-white">
-                    <div className="text-2xl font-bold">$4.4T</div>
-                    <div className="text-purple-200 text-sm">AI Market Opportunity (McKinsey)</div>
+                <h3 className="text-xl font-bold text-white mb-6">🏗️ We Replace Entire Departments</h3>
+                <div className="space-y-4 text-left">
+                  <div className="flex items-center text-white">
+                    <span className="text-2xl mr-3">💼</span>
+                    <div>
+                      <div className="font-semibold">Sales Department</div>
+                      <div className="text-purple-200 text-xs">AI agents handle leads → close deals</div>
+                    </div>
                   </div>
-                  <div className="text-white">
-                    <div className="text-2xl font-bold">49</div>
-                    <div className="text-purple-200 text-sm">$100M+ AI Startups in 2024</div>
+                  <div className="flex items-center text-white">
+                    <span className="text-2xl mr-3">👥</span>
+                    <div>
+                      <div className="font-semibold">HR Department</div>
+                      <div className="text-purple-200 text-xs">Automated recruiting & onboarding</div>
+                    </div>
                   </div>
-                  <div className="text-white">
-                    <div className="text-2xl font-bold">3-6x</div>
-                    <div className="text-purple-200 text-sm">ROI with AI Integration</div>
+                  <div className="flex items-center text-white">
+                    <span className="text-2xl mr-3">📈</span>
+                    <div>
+                      <div className="font-semibold">Marketing Team</div>
+                      <div className="text-purple-200 text-xs">Content creation & ad optimization</div>
+                    </div>
+                  </div>
+                  <div className="flex items-center text-white">
+                    <span className="text-2xl mr-3">⚙️</span>
+                    <div>
+                      <div className="font-semibold">Operations</div>
+                      <div className="text-purple-200 text-xs">Finance, legal, customer support</div>
+                    </div>
                   </div>
                 </div>
               </div>

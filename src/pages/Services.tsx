@@ -60,11 +60,11 @@ const Services: React.FC = () => {
       <section className="relative bg-gradient-to-br from-primary-50 to-accent-blue/10 dark:from-primary-800 dark:to-primary-900 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-800 dark:text-white mb-6 animate-fade-in">
-            Million-Dollar AI Company Builder
+            Ultra-Lean AI Company Builder
           </h1>
           <p className="text-xl text-primary-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto animate-slide-up">
-            Three proven paths to build your AI-powered million-dollar company. 
-            Strategic coaching, LinkedIn mastery, and intelligent automation that scales.
+            Build your million-dollar company with just 3-5 people. My team and I replace traditional departments with AI agents. 
+            Sales, HR, Marketing, Operations—we'll get you there.
           </p>
           <div className="animate-slide-up" style={{animationDelay: '0.2s'}}>
             <Link
@@ -72,7 +72,7 @@ const Services: React.FC = () => {
               className="inline-flex items-center px-8 py-4 bg-accent-blue text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-200 text-lg"
             >
               <Calendar className="mr-2 h-6 w-6" />
-              Start Building Your AI Company
+              Start Building Your Ultra-Lean AI Company
             </Link>
           </div>
         </div>
