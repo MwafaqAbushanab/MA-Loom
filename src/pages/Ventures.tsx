@@ -146,6 +146,30 @@ const Ventures: React.FC = () => {
                       Try Live Demo
                       <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-200" />
                     </Link>
+                  ) : venture.id === 'al-noman-foundation' ? (
+                    <Link
+                      to="/ventures/al-noman-foundation"
+                      className="flex-1 inline-flex items-center justify-center px-4 py-2 bg-accent-blue text-white font-medium rounded-lg hover:bg-blue-700 transition-colors duration-200 group"
+                    >
+                      Learn More
+                      <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-200" />
+                    </Link>
+                  ) : venture.id === 'nom-nom-cookies' ? (
+                    <Link
+                      to="/ventures/nom-nom-cookies"
+                      className="flex-1 inline-flex items-center justify-center px-4 py-2 bg-accent-blue text-white font-medium rounded-lg hover:bg-blue-700 transition-colors duration-200 group"
+                    >
+                      Franchise Info
+                      <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-200" />
+                    </Link>
+                  ) : venture.id === '7uryeah-studio' ? (
+                    <Link
+                      to="/ventures/7uryeah-studio"
+                      className="flex-1 inline-flex items-center justify-center px-4 py-2 bg-accent-blue text-white font-medium rounded-lg hover:bg-blue-700 transition-colors duration-200 group"
+                    >
+                      Explore Collections
+                      <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-200" />
+                    </Link>
                   ) : venture.url ? (
                     <a
                       href={venture.url}

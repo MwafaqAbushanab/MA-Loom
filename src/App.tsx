@@ -9,6 +9,9 @@ import Contact from './pages/Contact';
 import Lokio from './pages/Lokio';
 import FreshFlow from './pages/FreshFlow';
 import RiseMAgile from './pages/RiseMAgile';
+import AlNomanFoundation from './pages/AlNomanFoundation';
+import NomNomCookies from './pages/NomNomCookies';
+import SevenURyeahStudio from './pages/SevenURyeahStudio';
 
 function App() {
   return (
@@ -23,6 +26,9 @@ function App() {
             <Route path="/ventures/lokio" element={<Lokio />} />
             <Route path="/ventures/fresh-flow" element={<FreshFlow />} />
             <Route path="/ventures/rise-magile" element={<RiseMAgile />} />
+            <Route path="/ventures/al-noman-foundation" element={<AlNomanFoundation />} />
+            <Route path="/ventures/nom-nom-cookies" element={<NomNomCookies />} />
+            <Route path="/ventures/7uryeah-studio" element={<SevenURyeahStudio />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </Layout>
