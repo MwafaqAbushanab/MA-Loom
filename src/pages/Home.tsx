@@ -110,6 +110,73 @@ const Home: React.FC = () => {
         </div>
       </section>
 
+      {/* Social Proof */}
+      <section className="py-8 bg-primary-50 dark:bg-primary-900 border-y border-primary-200 dark:border-primary-700">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
+            <div className="text-center sm:text-left">
+              <p className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">
+                Connect with me on social media
+              </p>
+              <div className="flex items-center justify-center sm:justify-start space-x-6">
+                <a
+                  href={content.social.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center text-primary-600 dark:text-gray-300 hover:text-accent-blue transition-colors duration-200"
+                >
+                  <svg className="h-5 w-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                  </svg>
+                  <span className="text-sm font-medium">LinkedIn</span>
+                </a>
+                
+                <a
+                  href={content.social.tiktok}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center text-primary-600 dark:text-gray-300 hover:text-accent-blue transition-colors duration-200"
+                >
+                  <svg className="h-5 w-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-.88-.05A6.33 6.33 0 0 0 5.16 20.5a6.33 6.33 0 0 0 10.14-5.09V7.5a8.16 8.16 0 0 0 4.65 1.49v-3.4a4.85 4.85 0 0 1-.36.1z"/>
+                  </svg>
+                  <span className="text-sm font-medium">@abu.triplets</span>
+                </a>
+                
+                <a
+                  href={content.social.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center text-primary-600 dark:text-gray-300 hover:text-accent-blue transition-colors duration-200"
+                >
+                  <svg className="h-5 w-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 6.624 5.367 11.99 11.988 11.99s11.987-5.366 11.987-11.99C24.004 5.367 18.641.001 12.017.001zm5.568 16.756c-.458 1.138-1.364 2.044-2.503 2.503-1.729.692-5.831.532-7.745.532s-6.016.16-7.745-.532c-1.138-.458-2.044-1.364-2.503-2.503-.692-1.729-.532-5.831-.532-7.745s-.16-6.016.532-7.745c.458-1.138 1.364-2.044 2.503-2.503 1.729-.692 5.831-.532 7.745-.532s6.016-.16 7.745.532c1.138.458 2.044 1.364 2.503 2.503.692 1.729.532 5.831.532 7.745s.16 6.016-.532 7.745z"/>
+                    <path d="M12.017 7.056c-2.746 0-4.961 2.215-4.961 4.961s2.215 4.961 4.961 4.961 4.961-2.215 4.961-4.961-2.215-4.961-4.961-4.961zm0 8.174c-1.772 0-3.213-1.441-3.213-3.213s1.441-3.213 3.213-3.213 3.213 1.441 3.213 3.213-1.441 3.213-3.213 3.213z"/>
+                    <circle cx="17.128" cy="6.873" r="1.158"/>
+                  </svg>
+                  <span className="text-sm font-medium">@abu.triplets</span>
+                </a>
+              </div>
+            </div>
+            
+            <div className="flex items-center space-x-6 text-sm text-gray-600 dark:text-gray-400">
+              <div className="text-center">
+                <div className="font-bold text-lg text-primary-800 dark:text-white">6</div>
+                <div>Languages</div>
+              </div>
+              <div className="text-center">
+                <div className="font-bold text-lg text-primary-800 dark:text-white">5+</div>
+                <div>Ventures</div>
+              </div>
+              <div className="text-center">
+                <div className="font-bold text-lg text-primary-800 dark:text-white">🌍</div>
+                <div>Global</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Services Preview */}
       <section className="py-16 bg-white dark:bg-primary-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

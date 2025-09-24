@@ -101,6 +101,17 @@ const Contact: React.FC = () => {
                     <Linkedin className="h-6 w-6" />
                   </a>
                   <a
+                    href={content.social.tiktok}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-12 h-12 bg-primary-100 dark:bg-primary-700 rounded-lg flex items-center justify-center text-primary-600 dark:text-gray-300 hover:bg-accent-blue hover:text-white transition-colors duration-200"
+                    aria-label="TikTok"
+                  >
+                    <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-.88-.05A6.33 6.33 0 0 0 5.16 20.5a6.33 6.33 0 0 0 10.14-5.09V7.5a8.16 8.16 0 0 0 4.65 1.49v-3.4a4.85 4.85 0 0 1-.36.1z"/>
+                    </svg>
+                  </a>
+                  <a
                     href={content.social.instagram}
                     target="_blank"
                     rel="noopener noreferrer"

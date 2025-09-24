@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, Users, Clock, Target, BarChart3, Zap, Play, RotateCcw, CheckCircle, TrendingUp, Star, ExternalLink, ArrowRight, HelpCircle, Info } from 'lucide-react';
+import SocialShare from '../components/SocialShare';
 
 interface StoryPoint {
   id: string;
@@ -200,7 +201,7 @@ const RiseMAgile: React.FC = () => {
                 Transform your sprint planning with data-driven estimation. Rise MAgile uses intelligent algorithms and team collaboration to deliver 40% more accurate story points and faster sprint planning sessions.
               </p>
               
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <button 
                   onClick={() => document.getElementById('demo')?.scrollIntoView({ behavior: 'smooth' })}
                   className="inline-flex items-center px-6 py-3 bg-spurs-navy text-white font-semibold rounded-lg hover:bg-spurs-navy/90 transition-colors duration-200"
@@ -216,6 +217,13 @@ const RiseMAgile: React.FC = () => {
                   <ExternalLink className="ml-2 h-4 w-4" />
                 </Link>
               </div>
+              
+              {/* Social Share */}
+              <SocialShare
+                url={typeof window !== 'undefined' ? window.location.href : 'https://ma-loom.com/ventures/rise-magile'}
+                title="Rise MAgile - Story Pointing with Animal Metaphors"
+                description="Interactive story pointing tool for Agile teams with animal metaphors to improve estimation accuracy. Try our live demo!"
+              />
             </div>
             
             <div className="relative">
