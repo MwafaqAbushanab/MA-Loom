@@ -60,11 +60,11 @@ const Services: React.FC = () => {
       <section className="relative bg-gradient-to-br from-primary-50 to-accent-blue/10 dark:from-primary-800 dark:to-primary-900 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-800 dark:text-white mb-6 animate-fade-in">
-            Services
+            Million-Dollar AI Company Builder
           </h1>
           <p className="text-xl text-primary-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto animate-slide-up">
-            Transform your business with expert automation, agile practices, and strategic innovation. 
-            Let's unlock your organization's potential together.
+            Three proven paths to build your AI-powered million-dollar company. 
+            Strategic coaching, LinkedIn mastery, and intelligent automation that scales.
           </p>
           <div className="animate-slide-up" style={{animationDelay: '0.2s'}}>
             <Link
@@ -72,7 +72,7 @@ const Services: React.FC = () => {
               className="inline-flex items-center px-8 py-4 bg-accent-blue text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-200 text-lg"
             >
               <Calendar className="mr-2 h-6 w-6" />
-              Schedule a Consultation
+              Start Building Your AI Company
             </Link>
           </div>
         </div>
@@ -117,11 +117,20 @@ const Services: React.FC = () => {
                       ))}
                     </ul>
                     
+                    {/* Pricing */}
+                    {(service as any).pricing && (
+                      <div className="mb-6">
+                        <div className={`inline-block px-4 py-2 ${colors.bgLight} ${colors.text} rounded-lg font-semibold text-sm`}>
+                          💰 {(service as any).pricing}
+                        </div>
+                      </div>
+                    )}
+                    
                     <Link
                       to="/contact"
                       className={`inline-flex items-center px-6 py-3 border-2 ${colors.border} ${colors.text} font-semibold rounded-lg ${colors.hover} hover:text-white transition-colors duration-200 group`}
                     >
-                      Get Started
+                      {(service as any).cta || 'Get Started'}
                       <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-200" />
                     </Link>
                   </div>

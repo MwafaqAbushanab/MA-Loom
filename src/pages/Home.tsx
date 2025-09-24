@@ -17,8 +17,11 @@ const Home: React.FC = () => {
               <p className="text-lg md:text-xl text-primary-600 dark:text-gray-300 mb-6">
                 {content.personal.tagline}
               </p>
-              <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">
-                We design, automate, and run change‑ready workflows so your teams ship faster, safer, and smarter.
+              <p className="text-lg text-gray-600 dark:text-gray-400 mb-4">
+                The future isn't billion-dollar giants—it's thousands of intelligent, AI-powered companies worth $1M+ each.
+              </p>
+              <p className="text-md text-gray-600 dark:text-gray-400 mb-8">
+                I help ambitious entrepreneurs build million-dollar AI companies through strategic coaching, LinkedIn mastery, and intelligent automation.
               </p>
               
               <div className="space-y-4">
@@ -28,15 +31,15 @@ const Home: React.FC = () => {
                     className="inline-flex items-center px-8 py-4 bg-accent-blue text-white font-bold rounded-lg hover:bg-blue-700 transition-all duration-200 group whitespace-nowrap shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                   >
                     <Calendar className="mr-2 h-5 w-5" />
-                    Start Free Consultation
+                    Build Your Million-Dollar AI Company
                     <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-200" />
                   </Link>
                   
                   <Link
-                    to="#case-studies"
+                    to="/services"
                     className="inline-flex items-center px-6 py-3 border-2 border-accent-blue text-accent-blue font-semibold rounded-lg hover:bg-accent-blue hover:text-white transition-colors duration-200 whitespace-nowrap"
                   >
-                    See Success Stories
+                    Explore Coaching Programs
                   </Link>
                 </div>
                 
@@ -44,15 +47,15 @@ const Home: React.FC = () => {
                 <div className="flex items-center justify-center lg:justify-start gap-6 text-sm text-gray-600 dark:text-gray-400 mt-4">
                   <div className="flex items-center">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-1" />
-                    Free Consultation
+                    AI-First Strategy
                   </div>
                   <div className="flex items-center">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-1" />
-                    24hr Response
+                    Million-Dollar Focus
                   </div>
                   <div className="flex items-center">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-1" />
-                    Proven Results
+                    LinkedIn Mastery
                   </div>
                 </div>
                 
@@ -91,20 +94,20 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div className="text-white">
-              <div className="text-3xl font-bold mb-2">50+</div>
-              <div className="text-blue-100">Projects Delivered</div>
+              <div className="text-3xl font-bold mb-2">$1M+</div>
+              <div className="text-blue-100">Target Company Valuation</div>
             </div>
             <div className="text-white">
-              <div className="text-3xl font-bold mb-2">3x</div>
-              <div className="text-blue-100">Average Speed Increase</div>
+              <div className="text-3xl font-bold mb-2">5+</div>
+              <div className="text-blue-100">AI Companies Built</div>
             </div>
             <div className="text-white">
-              <div className="text-3xl font-bold mb-2">40%</div>
-              <div className="text-blue-100">Cost Reduction</div>
+              <div className="text-3xl font-bold mb-2">500%</div>
+              <div className="text-blue-100">ROI with AI Integration</div>
             </div>
             <div className="text-white">
-              <div className="text-3xl font-bold mb-2">24hr</div>
-              <div className="text-blue-100">Response Time</div>
+              <div className="text-3xl font-bold mb-2">LinkedIn</div>
+              <div className="text-blue-100">Lead Generation Expert</div>
             </div>
           </div>
         </div>
@@ -182,10 +185,10 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="font-display text-3xl md:text-4xl font-semibold text-primary-800 dark:text-white mb-4">
-              How We Weave Workflows
+              Build Your Million-Dollar AI Empire
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              Turning scattered tools and meetings into one delivery rhythm—so your team ships value every week.
+              Three proven paths to building intelligent, profitable companies that scale with AI at their core.
             </p>
           </div>
           
@@ -222,6 +225,123 @@ const Home: React.FC = () => {
                 </div>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* LinkedIn Coaching CTA */}
+      <section className="py-16 bg-gradient-to-r from-blue-600 to-blue-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+              🚀 Master LinkedIn to Build Your Million-Dollar Network
+            </h2>
+            <p className="text-xl text-blue-100 mb-8">
+              LinkedIn isn't just social media—it's your most powerful tool for client acquisition, thought leadership, and building the network that funds your AI company.
+            </p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10 text-left">
+              <div className="bg-white/10 rounded-lg p-6">
+                <h3 className="text-lg font-semibold text-white mb-3">👑 Thought Leadership</h3>
+                <p className="text-blue-100 text-sm">Position yourself as the AI expert investors and clients seek out</p>
+              </div>
+              <div className="bg-white/10 rounded-lg p-6">
+                <h3 className="text-lg font-semibold text-white mb-3">💼 Client Acquisition</h3>
+                <p className="text-blue-100 text-sm">Generate $50K+ in new business through strategic LinkedIn outreach</p>
+              </div>
+              <div className="bg-white/10 rounded-lg p-6">
+                <h3 className="text-lg font-semibold text-white mb-3">🤝 Investor Network</h3>
+                <p className="text-blue-100 text-sm">Connect with VCs, angels, and strategic partners for your AI venture</p>
+              </div>
+            </div>
+            
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                to="/contact"
+                className="inline-flex items-center px-8 py-4 bg-white text-blue-700 font-bold rounded-lg hover:bg-gray-100 transition-colors duration-200 text-lg shadow-lg"
+              >
+                📈 Master LinkedIn Strategy - $5K/Month
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
+              <Link
+                to="/contact"
+                className="inline-flex items-center px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-blue-700 transition-colors duration-200 text-lg"
+              >
+                🎯 Team Training - $15K/Month
+              </Link>
+            </div>
+            
+            <p className="text-blue-200 text-sm mt-6">
+              💡 90% of my AI startup clients credit LinkedIn networking for their first $100K+ in revenue
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* AI Startup Coaching CTA */}
+      <section className="py-16 bg-gradient-to-r from-purple-600 to-purple-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+                🤖 Build Your Million-Dollar AI Company
+              </h2>
+              <p className="text-xl text-purple-100 mb-8">
+                The future belongs to intelligent startups that leverage AI from day one. I'll guide you from concept to $1M+ valuation in 12-18 months.
+              </p>
+              
+              <div className="space-y-4 mb-8">
+                <div className="flex items-start">
+                  <CheckCircle className="h-6 w-6 text-green-400 mr-3 mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="text-white font-semibold">AI-First Business Model Design</p>
+                    <p className="text-purple-200 text-sm">Build products that get smarter, not just bigger</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <CheckCircle className="h-6 w-6 text-green-400 mr-3 mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="text-white font-semibold">Intelligent Automation Strategy</p>
+                    <p className="text-purple-200 text-sm">Scale operations with AI agents and smart workflows</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <CheckCircle className="h-6 w-6 text-green-400 mr-3 mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="text-white font-semibold">$1M+ Funding Strategy</p>
+                    <p className="text-purple-200 text-sm">Position for investment in the AI startup boom</p>
+                  </div>
+                </div>
+              </div>
+              
+              <Link
+                to="/contact"
+                className="inline-flex items-center px-8 py-4 bg-white text-purple-700 font-bold rounded-lg hover:bg-gray-100 transition-colors duration-200 text-lg shadow-lg"
+              >
+                🚀 Start Building - $15K/Month (3-month minimum)
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
+            </div>
+            
+            <div className="text-center lg:text-right">
+              <div className="inline-block bg-white/10 rounded-2xl p-8">
+                <div className="text-6xl mb-4">🎯</div>
+                <div className="space-y-2">
+                  <div className="text-white">
+                    <div className="text-2xl font-bold">$4.4T</div>
+                    <div className="text-purple-200 text-sm">AI Market Opportunity (McKinsey)</div>
+                  </div>
+                  <div className="text-white">
+                    <div className="text-2xl font-bold">49</div>
+                    <div className="text-purple-200 text-sm">$100M+ AI Startups in 2024</div>
+                  </div>
+                  <div className="text-white">
+                    <div className="text-2xl font-bold">3-6x</div>
+                    <div className="text-purple-200 text-sm">ROI with AI Integration</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

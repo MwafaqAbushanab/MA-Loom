@@ -1,11 +1,11 @@
 {
   "personal": {
     "name": "Mwafaq N. Abu-Shanab",
-    "title": "Founder of MA Loom — The Flow Studio",
-    "tagline": "From chaos to cadence. Workflows that adapt.",
+    "title": "AI-Powered Business Consultant & Million-Dollar Company Builder",
+    "tagline": "Building the next generation of million-dollar AI companies. The future belongs to intelligent startups.",
     "email": "mwafaq@maloom.studio",
     "linkedin": "https://linkedin.com/in/mwafaq-abushanab",
-    "bio": "MA Loom is a founder-led flow studio. We weave people, process, and platforms into an operating rhythm—blending Agile practice, automation, and pragmatic AI—to reduce cycle time, cut cost, and scale outcomes.\n\nWe turn scattered tools and meetings into one delivery rhythm—so your team ships value every week. From chaos to cadence, we design, automate, and deliver workflows that adapt.\n\nBeyond work, I'm a proud father of four (including triplets!) and fluent in multiple languages, which helps me connect with diverse teams and clients worldwide.",
+    "bio": "I help ambitious entrepreneurs build million-dollar AI companies in the era where intelligence beats scale. The future isn't about billion-dollar giants—it's about thousands of agile, AI-powered companies worth $1M+ each.\n\nWith MA Loom, I guide founders through AI integration, intelligent automation, and scalable workflows that turn ideas into profitable ventures. From concept to $1M+ valuation, I provide the coaching, training, and strategic guidance that transforms startups into AI-native success stories.\n\nBeyond building companies, I'm a proud father of four (including triplets!) and fluent in multiple languages, helping me connect with diverse entrepreneurs worldwide.",
     "languages": [
       {"name": "English", "level": "Fluent"},
       {"name": "Arabic", "level": "Fluent"},
@@ -17,43 +17,55 @@
   },
   "services": [
     {
-      "id": "automation-ai",
-      "title": "Design. Automate. Deliver.",
-      "description": "We design change-ready workflows that ship faster, safer, and smarter.",
+      "id": "ai-startup-coaching",
+      "title": "Million-Dollar AI Company Builder",
+      "description": "Transform your startup into an AI-powered million-dollar company with expert guidance and proven frameworks.",
       "icon": "Bot",
       "features": [
-        "LoomMap workshops to diagnose delivery bottlenecks",
-        "Workflow automation with n8n, Python, and API integrations",
-        "Pragmatic AI deployments for business operations",
-        "Change-ready process design and optimization"
+        "AI-First Business Model Design & Validation",
+        "Intelligent Automation Strategy & Implementation", 
+        "AI Product Development & Go-to-Market Strategy",
+        "Scalable AI Operations & Team Building",
+        "Funding Strategy for AI Companies ($1M+ valuations)",
+        "AI Ethics & Compliance Framework Setup"
       ],
-      "color": "accent-blue"
+      "color": "accent-blue",
+      "cta": "Start Building Your AI Company",
+      "pricing": "Starting at $15,000/month - 3 month minimum"
     },
     {
-      "id": "agile-consulting",
-      "title": "Flow & Rhythm Consulting",
-      "description": "We weave teams into a sustainable delivery cadence with proven methodologies.",
-      "icon": "Users",
+      "id": "linkedin-coaching",
+      "title": "LinkedIn Executive Coaching & Training",
+      "description": "Master LinkedIn for business growth, thought leadership, and client acquisition with personalized coaching.",
+      "icon": "Users", 
       "features": [
-        "Operating rhythm design and cadence optimization",
-        "SAFe / Scrum coaching with flow metrics",
-        "Leadership workshops for sustainable delivery",
-        "Team dynamics and collaboration patterns"
+        "Personal Brand Strategy & Profile Optimization",
+        "Content Creation & Thought Leadership Development",
+        "LinkedIn Sales Navigator & Lead Generation",
+        "Network Building & Relationship Management",
+        "Speaking Opportunities & Industry Recognition",
+        "Team Training Programs for Organizations"
       ],
-      "color": "spurs-navy"
+      "color": "spurs-navy",
+      "cta": "Become a LinkedIn Leader",
+      "pricing": "From $5,000/month - Individual | $15,000/month - Team Training"
     },
     {
-      "id": "product-strategy",
-      "title": "Product Strategy & Ventures",
-      "description": "From concept to launch - strategic guidance for your next big idea.",
+      "id": "ai-workflow-automation",
+      "title": "AI-Powered Workflow Automation",
+      "description": "Design and implement intelligent workflows that scale with AI at the core.",
       "icon": "Lightbulb",
       "features": [
-        "Platform & startup advisory",
-        "MVP development & product roadmaps",
-        "Incubation of new concepts",
-        "Market validation and go-to-market strategy"
+        "AI-Native Process Design & Optimization",
+        "Intelligent Document Processing & Analysis", 
+        "Automated Decision-Making Systems",
+        "AI-Powered Customer Service & Support",
+        "Predictive Analytics & Business Intelligence",
+        "Custom AI Tool Integration & Training"
       ],
-      "color": "french-red"
+      "color": "french-red",
+      "cta": "Automate with Intelligence", 
+      "pricing": "Project-based: $25,000 - $150,000"
     }
   ],
   "ventures": [
